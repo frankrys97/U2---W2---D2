@@ -1,7 +1,20 @@
-const cards = document.querySelectorAll(".card");
+
 
 window.onload = function () {
+
+  //   const removeCards = function () {
+  //     const cards = document.querySelectorAll(".card");
+  //   for (let i = 0; i < cards.length; i++) {
+  //     const card = cards[i];
+  //     card.remove()
+  // }
+  // }
+  
+  // removeCards()
+
+
   const countTravels = function () {
+    const cards = document.querySelectorAll(".card");
     const numberOfTravelsContainer = document.getElementById("numberOfTravels");
 
     if (cards.length > 0) {
@@ -31,14 +44,7 @@ window.onload = function () {
 
   hotBadge();
 
-  // const removeCards = function () {
-  //   for (let i = 0; i < cards.length; i++) {
-  //     const card = cards[i];
-  //     card.remove()
-  // }
-  // }
-  
-  // removeCards()
+
 };
 
 
