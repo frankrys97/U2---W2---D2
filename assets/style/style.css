@@ -1,0 +1,9 @@
+.card-img-top {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.img-fluid {
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
